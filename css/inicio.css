@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #043CAA;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.encuadro{
+    height: 750px;
+    width: 90%;
+    background-color:#E5E5E5 ;
+    transition: .5s;
+    box-shadow: 10px 15px 20px black;
+}
+.encuadro:hover{
+    transform: translate3d(40px, 15px, 15px);
+    box-shadow: 0 6px 12px rgb(29, 28, 28);
+}
+header{
+    height: 120px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+}
+.logo{
+    margin-left: 20vh ;
+    font-size: 25px;
+    color: #07338c;
+    font-weight: bold;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    margin-right: 15vh;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #07338c;
+    font-size: 23px;
+}
+.se{
+    margin-left:5vh;
+}
+.contenedor button{
+    border: 1px solid #043CAA;
+    width: 70px;
+    height: 40px;
+    border-radius: 17px;
+    cursor: pointer;
+} 
+.in{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.in img{
+    position: relative;
+    width: 800px;
+    height: 700px
+    
+}
+.farmacia{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+}
+.farmacia .ti{
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: -20vh;
+    margin-left: 10%;
+}
+.farmacia .tx{
+    font-size: 50px;
+    margin-left: 10%;
+}
+.farmacia .parraf{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.in button{
+    width: 170px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 17px;
+    margin-left: 10%;
+    background-color: #10d0de;
+    color: white;
+}
